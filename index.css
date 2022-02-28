@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white
+}
+
+body{
+    background-color: rgb(6.7, 9, 14.5);
+    
+}
+
+.corpo{
+    
+}
+
+
+.icon{
+    background-color: aqua;
+}
+
+.icon-image{
+    border: solid white;
+    display: inline-block;
+    color: red;
+    align-items: left;
+}
+
+.icon-text{
+    display: inline-block;
+    border: solid red;
+    color: rgb(187, 7, 7);
+}
+
+
