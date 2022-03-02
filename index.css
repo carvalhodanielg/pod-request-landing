@@ -173,11 +173,14 @@ img{
 .platforms{
 
     box-sizing: border-box;
+    
     height: 40px;
     width: 70%;
     margin-left: 2%;
 }
 
 .emailfail{
-    border: 2px solid red; !important
+    color: red; !important;
+    border: 2px solid red; !important;
+    
 }
