@@ -14,8 +14,14 @@ const emailfield = document.getElementById('emailfield')
         email.value = ""
         email.placeholder = "Email inválido"
     } else{emailfield.classList.remove('emailfail')
+    const emailAdress = email.value;
     email.value = ""
-    alert("Email cadastrado com sucesso!")
+    //alert("Email cadastrado com sucesso!");
+    Swal.fire({
+        title: "Olá!",
+        text: "Seu email: " + emailAdress + " foi cadastrado com sucesso!",
+        icon: "success",    
+    });
     }
 
 })
