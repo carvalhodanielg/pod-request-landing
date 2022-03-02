@@ -169,3 +169,11 @@ img{
     box-shadow: 0 0 0 0;
     outline: 0;
 }
+
+.platforms{
+
+    box-sizing: border-box;
+    height: 40px;
+    width: 70%;
+    margin-left: 2%;
+}
