@@ -20,18 +20,21 @@ img{
 }
 
 .corpo{
-    padding: 80px; 
+    padding: 2%;  /* 80px */
     min-width: 100%;
     min-height: 100%;
     max-height: 100%;
     
+   
+    
 }
 
 .main-area{
-   
+ 
     width: auto;
-    height: 80vh;
-    position: relative;  
+    height: 80vh; /* 80vh*/
+    position: relative; /*relative */
+      
     
     
 }
@@ -43,18 +46,21 @@ img{
     margin-left: 500px;
     right: 0%;
     height: 70%;
+    
 }
 
 .resto{
     background-color: rgb(19, 24, 39);    
     width: 70%;
+    height: 80vh;
     /*in-height: fit-content;*/
     position: absolute;
-    width: auto;
+   /* width: auto;*/
     margin-right: 500px;
-    margin-top: 80px;
-    padding-top: 80px;
-    flex-direction: column;     
+    margin-top: 2%; /*80px*/
+    padding-top: 2%; /*80px*/
+    flex-direction: column;    
+    
 }
 
 .icon{
@@ -67,6 +73,7 @@ img{
     display: inline-block;
     color: white;
     align-items: left;
+  
 }
 
 .icon-text{
@@ -76,8 +83,8 @@ img{
 
 .titulo{
     display: inline;
-    margin-top: 100px;
-    padding;
+    margin-top: 5%; /* 100px*/
+    
     font-family: 'Smooch Sans', sans-serif;
     font-size: xx-large;
 }
@@ -94,8 +101,8 @@ img{
     color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-size: x-large;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5%; /* 50px*/
+    margin-bottom: 5%; /*50 px */
     width: 80%;
 }
 
