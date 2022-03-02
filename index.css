@@ -2,35 +2,93 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
-    color: white
+    
+ 
+   
 }
 
 body{
-    background-color: rgb(6.7, 9, 14.5);
-    
+    background-color: rgb(19, 24, 39);
+    color: white;
+}
+
+img{
+    max-width: 50vw;
+   display: inline;
+   
+   
 }
 
 .corpo{
+    padding: 80px; 
+    min-width: 100%;
+    min-height: 100%;
     
 }
 
+.main-area{
+   
+    width: auto;
+    height: 100vh;
+    position: relative;  
+    
+}
+
+.back-image{
+    
+    position: absolute;
+    width: auto;
+    margin-left: 500px;
+}
+
+.resto{
+    background-color: rgb(19, 24, 39);
+    height: 500px;
+    position: absolute;
+    width: auto;
+    margin-right: 500px;
+    margin-top: 100px;
+    padding-top: 80px;
+}
 
 .icon{
-    background-color: aqua;
+    color: white;
+    margin-left: 100px;
 }
 
 .icon-image{
-    border: solid white;
+   
     display: inline-block;
-    color: red;
+    color: white;
     align-items: left;
 }
 
 .icon-text{
-    display: inline-block;
-    border: solid red;
-    color: rgb(187, 7, 7);
+    display: inline-block; 
+    color: white;
+}
+
+.titulo{
+    display: inline;
+    margin-top: 100px;
+    padding;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: xx-large;
+}
+
+#everywhere{
+    color: aqua;
+}
+
+.description{
+    color: rgb(255, 255, 255);
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
+.botao{
+    display: inline-block;
+}
