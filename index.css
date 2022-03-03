@@ -193,7 +193,7 @@ img{
 }
 
 
-@media screen and (max-width: 720px ) {
+@media screen and (max-width: 400px ) {
     
     .email-field{
 
@@ -209,7 +209,7 @@ img{
         border-radius: 50px;
         justify-content: center;
         margin-right: 5%;
-        border: solid 5px red; /* apagar */
+        
         
     }
 
@@ -224,7 +224,7 @@ img{
         margin-top: 2%; /*80px*/
         padding-top: 2%; /*80px*/
         flex-direction: column;    
-        border: solid 5px red; /* apagar */
+        
     }
 
     .platforms{
@@ -234,6 +234,15 @@ img{
         height: 40px;
         width: 70%;
         margin-left: 2%;
+    }
+
+    #botao{
+        background-color: rgb(85, 228, 175);
+        border: 5px solid rgb(85, 228, 175);
+        border-radius: 50px;
+        /*position: relative;*/
+        width: 20vw;  
+        
     }
 
 }
