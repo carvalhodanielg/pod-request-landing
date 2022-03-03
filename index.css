@@ -245,4 +245,15 @@ img{
         
     }
 
+    #email{
+        border: none;
+        background-color: rgb(31, 38, 59) ;
+        color: aliceblue;
+        position: relative;
+        left: 25px;
+        width: 100%;
+        
+    
+    }
+
 }
